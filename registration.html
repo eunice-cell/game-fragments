@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar">
+
+     <img src="images/logo.png" class="logo">
+   <div class="nav-links">
+       <a href ="index.html">Home</a>
+       <a href ="game.html">Game</a>
+       <a href ="login.html">Login</a>
+       <a href ="registration.html">Register</a>
+   </div>
+</nav>
+    
+    <div class="content">
+
+        <h2> create account </h2>
+
+        <div>
+                Username:<input type="text" id="username" placeholder="choose a Username">
+
+        </div>
+
+        <div>
+                Email:<input type="text" id="email" placeholder="enter your email">
+
+        </div>
+
+        <div>
+                Phone number:<input type="tel" id="phone" placeholder="enter your phone number">
+
+        </div>
+
+        <div>
+                Password:<input type="password" id="password" placeholder="create a password">
+
+        </div>
+
+        <div>
+                Confirm Password:<input type="password" id="confirmPassword" placeholder="confirm Password">
+
+        </div>
+       <!--will display the feedback --> 
+        <p id="message"></p>
+
+        <div class="button-placement">
+
+             <button class="register-btn"
+             onclick="registerUser()">
+            REGISTER
+            </button>
+        </div>
+
+        <div class="login-prompt">
+            <span>already have an account?</span>
+            <a href="login.html" class="login-btn">Login</a>
+
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script> 
+</body>
+</html>

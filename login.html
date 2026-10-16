@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ <nav class="navbar">
+
+     <img src="images/logo.png" class="logo">
+   <div class="nav-links">
+       <a href ="index.html">Home</a>
+       <a href ="game.html">Game</a>
+       <a href ="login.html">Login</a>
+       <a href ="registration.html">Register</a>
+   </div>
+ </nav>
+    <div class="content">
+    
+
+        <h2> LOGIN </h2>
+
+        <div>
+                Username/Email:<input type="text" id="loginUsername"    placeholder="enter your Username">
+
+        </div>
+
+
+        <div>
+                Password:<input type="password" id="loginPassword"    placeholder="create a password">
+
+        </div>
+        <p id="loginMessage"></p>
+
+        <div class="button-placement">
+            <button class="login-btn" onclick="loginUser()">LOGIN</button>
+           
+
+        </div>
+
+       <div class="register-prompt">
+         <span>Don't have an account?</span>
+            <a href="registration.html" class="register-btn">Register</a>
+            
+        </div>
+
+
+    </div>
+</body>
+</html>
