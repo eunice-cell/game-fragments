@@ -9,7 +9,7 @@
 </head>
 <body>
 
- <nav class="navbar">
+ <nav class="navbar" >
 
      <img src="images/logo.png" class="logo">
    <div class="nav-links">
@@ -19,28 +19,33 @@
        <a href ="registration.html">Register</a>
    </div>
  </nav>
-    <div class="content">
+    <div class="content" id="loginParam">
     
 
         <h2> LOGIN </h2>
 
         <div>
-                Username/Email:<input type="text" id="loginUsername"    placeholder="enter your Username">
+              Email:<input type="text" id="loginEmail"    placeholder="Enter your Email">
 
         </div>
 
 
         <div>
-                Password:<input type="password" id="loginPassword"    placeholder="create a password">
+                Password:<input type="password" id="loginPassword"    placeholder="Enter password">
 
         </div>
-        <p id="loginMessage"></p>
+       
+        <div class="forgot-link">
+            <a href="forgot-password.html">Forgot Password?</a>
+        </div>
+
 
         <div class="button-placement">
             <button class="login-btn" onclick="loginUser()">LOGIN</button>
-           
-
+        
         </div>
+        
+        <p id="loginMessage"></p>
 
        <div class="register-prompt">
          <span>Don't have an account?</span>
@@ -50,5 +55,6 @@
 
 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
